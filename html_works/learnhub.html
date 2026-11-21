@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>learn</title>
+</head>
+<body>
+      <h1>LearnHub</h1>
+      <p>Your learning journey starts here.</p>
+
+      <!--hyper link a-->
+
+      <a href="#">Home|</a>
+      <a href="#">Course|</a>
+      <a href="#">Register|</a>
+      <a href="#">Contact</a>|
+      
+      <hr>
+  <section>
+    <h2>Welcome to LearnHub</h2>
+    <p>LearnHub is a <strong>Learning Management Portal</strong> where students can explore courses and learn new skills.</p>
+
+    <p>Our goal is to help students become <em>industry-ready developers</em>.</p>
+
+    <p>
+        <mark>Admissions are Open!</mark><small> Limited seats are available for the next batch.</small>
+    </p>
+
+    <!-- img src alt -->
+
+    <img src="./images/ling-app-IQSy7cU5BxQ-unsplash.jpg" alt="No Images" width="500px" height="200px">
+    
+    <p>Course Fee: <del>₹20,000</del> <strong>₹15,000</strong></p>
+    
+    <p>Example of text formatting: H<sub>2</sub> and 2<sup>3</sup>=8.</p>
+  </section>
+  <hr>
+  <section>
+    <h2>Available Course</h2>
+    <strong>Python Django Development</strong>
+    <p>Learn Python,MySQL,Django and Django REST Framework.<abbr title="Django Rest Framework">DRF</abbr> is used to build REST APIs</p>
+
+    <h4>Technologies covered</h4>
+     <!-- ordered-list ol, un-ordered list-->
+      <ul>
+        <li>Python</li>
+        <li>MySQL</li>
+        <li>Django</li>
+        <li>Django Rest Framework</li>
+      </ul>
+    
+      <h4>Learning stages</h4>
+      <ol type="A">
+        <li>Python programming</li>
+        <li>Database fundamentals</li>
+        <li>Django development</li>
+        <li>REST API development</li>
+      </ol>
+     <a href="#">Enrol in this course</a>
+
+     <h4>Data Analytics</h4>
+     <p>Learn to collect,process and understand data.</p>
+     <a href="#">Enquire about this course</a>
+
+     <h4>Did you know?</h4>
+     <p>Students can learn at their own pace and track lesson progress.</p>
+    
+  </section>
+  <hr>
+  <section>
+    <h2>Common Terms</h2>
+    
+    <dl>
+        <dt>CSRF</dt>
+          <dd>Cross Site Request Forgery</dd> 
+        <dt>HTML</dt>
+         <dd>HyperText Markup Language </dd>
+        <dt>API</dt>
+         <dd>Application Programming Interface.</dd>
+        <dt>Frontend</dt>
+         <dd>The part of an application users interact with.</dd>
+    </dl>
+    <hr>
+    <h2>Upcoming Batch Schedule</h2>
+    <table>
+        <caption>Course Batch Detail</caption>
+        <tr>
+            <th>Course</th>
+            <th>Batch</th>
+            <th>Date</th>
+            <th>Status</th>
+        </tr>
+        <tr>
+            <th>Python Django</th>
+            <td>Morning</td>
+            <td>1 December 2026</td>
+            <td>Open</td>
+        </tr>
+          <tr>
+            <th>Data Analytics</th>
+            <td>Evening</td>
+            <td>5 December 2026</td>
+            <td>Open</td>
+          </tr>
+    </table>
+    <p>Contact the institute for more details.</p>
+     <hr>
+    <h2>Student Registration</h2>
+    <p>Fill in the form to register your interest</p>
+
+    <!--type text,number,email,password,date,file,radio,checkbox-->
+    <form action="">
+        <fieldset>
+            <legend>Personal Details</legend>
+            
+        <div>
+             <label for="">Full Name:</label>
+             <input type="text" placeholder="enter yourname">
+        </div>
+
+        <div>
+            <label for="">Email:</label>
+            <input type="email" placeholder="example@gmail.com">
+        </div>
+
+        <div>
+            <label for="">Phone:</label>
+            <input type="text">
+        </div>
+        
+        <div>
+            <label for="">Create Password:</label>
+            <input type="password">
+        </div>
+        
+        <div>
+            <label for="">Date of birth:</label>
+            <input type="date">
+        </div>
+
+        <div>
+            <label for="">Preferred contact time:</label>
+            <input type="time">
+        </div>
+
+        <div>
+            <label for="">Preferred counselling date and time:</label>
+            <input type="datetime-local">
+        </div>
+
+        <div>
+            <label for="">Age:</label>
+            <input type="number">
+        </div>
+        
+        <div>
+            <label for="">Portfolio website:</label>
+            <input type="url" placeholder="https://example.com">
+        </div>
+
+        <div>
+            <label for="">Search a course:</label>
+            <input type="text">
+        </div>
+
+        <div>
+            <label for="">Select Course:</label>
+
+            <input list="course_options">
+
+            <!-- id,class-->
+            <datalist id="course_options">
+                <option value="Django">Django</option>
+                <option value="Mearn">Mearn</option>
+                <option value="Data Science">Data Science</option>
+            </datalist>
+        </div>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Course details</legend>
+            <div>
+                <label for="">Course:</label>
+                <select name="" id="">
+                    <optgroup label="Development">
+                        <option value="">Django</option>
+                        <option value="">MEARN</option>
+                        <option value="">SPRING</option>
+                        <option value="">DATA SCIENCE</option>
+                    </optgroup>
+
+                    <optgroup label="Testing">
+                         <option value="">testing</option>
+                         <option value="">Playright</option>
+                    </optgroup>
+                </select>
+            </div>
+            <div>
+                <label for="">Preffered Batch:</label>
+                <input type="radio" name="batch"> <label for="morning">Morning</label>
+                <input type="radio" name="batch"> <label for="afternoon">Afternoon</label>
+            </div>
+            
+            <div>
+                <label for="">Skills you already know:</label>
+                <input type="checkbox" value="python"> <label for="">python</label>
+                <input type="checkbox" value="mysql"> <label for="">mysql</label>
+                <input type="checkbox" value="js"> <label for="">javascript</label>
+            </div>
+
+            <div>
+                <label for="">Why do you want to join?</label>
+                <textarea name="" id="" rows="10" cols="40">write a short note</textarea>
+            </div>
+
+            <div>
+                <label for="">Upload your resume:</label>
+                <input type="file">
+            </div>
+            
+            <div>
+                <label for="">Choose a profile color:</label>
+                <input type="color">
+            </div>
+
+            <div>
+                <label for="">Your current confidence in programming:</label>
+                <input type="range" min="1" max="10" value="5">
+            </div>
+
+            <div>
+                <label for="">Registration preparation process:</label>
+                <progress min="5" max="100" value="75">
+                </progress>
+            </div>
+
+            <div>
+                <label for="">Sample skill level indicator:</label>
+                <meter id="skill level" min="1" max="32" value="15"></meter>
+            </div>
+        </fieldset>
+
+        <div>
+            <input type="checkbox"> I agree to be contacted about this course.
+        </div>
+
+        <div>
+            <button type="submit">Submit registration</button>
+            <button type="reset">ResetForm</button>
+            <button>Demobutton</button>
+        </div>
+        <hr>
+        
+        <section>
+            <h1>Frequently Asked Question</h1>
+            <details>
+                <summary>
+                    Do I need programming experience?
+                </summary>
+             </details>
+             <p>Yes</p>
+             <details>
+                <summary>
+                    Can I access lessons later?
+                </summary>
+             </details>
+                
+           
+            <hr>
+        </section>
+
+        <section>
+
+            <h1>Course Introduction</h1>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/qhNnS7rN7XE?si=xXJiYDFhAW51Xp1N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+        
+
+    </form>
+  </section>
+</body>
+</html>
+
+<!--css-->

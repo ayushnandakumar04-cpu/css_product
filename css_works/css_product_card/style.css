@@ -1,0 +1,69 @@
+body{
+    width:100vw;
+    height: 100vh;
+    background-color: beige;
+
+}
+.card-image{
+    width:40%;
+    height:90px;
+    position: absolute;
+    left: 50%;
+    bottom:80%;
+    transform: translate(-50%,-50%);
+
+}
+.card-image>img{
+    width: 110%;
+    height: 110%;
+    
+}
+.card{
+    width:20%;
+    min-height: 80px;
+    background-color: rgb(225, 113, 113);
+    position: relative;
+    top: 40%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    padding:10px;
+    box-shadow: 10px 10px 10px black;
+    
+}
+
+.card-content{
+    width:50%;
+    height:300px;
+    transform: translate(50%);
+}
+
+.text-center{
+    text-align:center
+}
+
+
+.card-footer>button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aquamarine;
+    color: white;
+    padding: 10px;
+    border-radius: 100px;
+}
+
+.badge{
+    width: 65px;
+    height:35px;
+    background-color: black;
+    color: azure;
+    position: absolute;
+    right: 0;
+    transform: translate(10%);
+    border: 40%;
+}
+
+.flex-container{
+      background-color: aquamarine;
+      
+}
