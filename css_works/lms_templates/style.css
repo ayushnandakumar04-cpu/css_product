@@ -19,6 +19,7 @@
 
 .container{
     width:75%;
+    padding: 30px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -70,13 +71,13 @@
     background-color: rgb(198, 203, 203);
     display: flex;
     align-items: center;
-    padding: 60px;
+    padding: 74px 13%;
     justify-items:space-around;
 
 }
 
 .banner-item>h1 {
-    font-size: 35px;
+    font-size: 30px;
     font-weight: bold;
     color: #1e50ba;
 
