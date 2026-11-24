@@ -1,22 +1,30 @@
+body{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .flex-container{
     width: 75%;
-    height: 300px;
+    height: 400px;
     background-color: aquamarine;
     display: flex;
     /*justify-content: space-between;*/
     /*justify-content:space around;*/
-    justify-content:space-evenly;
+    /*justify-content:space-evenly;*/
     /*justify-content:flex-start*/
     /*justify-content:flex-end*/
-    /*justify-content:center*/
-
-
+    justify-content:center;
+    /*align-items:flex-end;*/
+    /*align-items:flex-start;*/
+    align-items: center;
     
 }
 
 .flex-item{
     width: 22%;
-    height:100px;
+    height:200px;
     background-color: pink;
     border: 1px solid palevioletred;
 
