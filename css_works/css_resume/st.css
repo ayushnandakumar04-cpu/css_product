@@ -23,7 +23,7 @@ body{
     padding: 10px;
 }
 .grid-item:nth-child(1){
-      background-image: linear-gradient( 180.4deg,  rgba(0,6,10,1) 1%, rgba(1,190,237,1) 91.4% );
+      background-image: linear-gradient( 180.4deg, rgba(1,190,237,1) 91.4% );
       grid-column: 1/2;
       width: 80%;
       align-items: center;
@@ -45,14 +45,14 @@ body{
     object-fit: cover;
 }
 .grid-item:nth-child(2){
-    background-image: radial-gradient( circle 315px at 8% 51.4%,  rgba(95,54,238,1) 0%, rgba(248,238,253,1) 100.3% );
+    background-image: radial-gradient(  rgba(248,238,253,1) 100.3% );
     grid-row: 2/6;
     width:87%;
     padding: 9px;
 }
 
 .grid-item:nth-child(3){
-    background-image: radial-gradient( circle farthest-corner at 32.7% 49.8%,  rgba(28,88,238,1) 0%, rgba(0,39,137,1) 100.2% );
+    background-image: radial-gradient(rgb(76, 122, 239) 0% );
     grid-column: 2/4;
     align-items: center;
     padding: 9px;
@@ -86,13 +86,13 @@ body{
 }
 
 .grid-item:nth-child(5){
-    background-image: linear-gradient( 109.6deg,  rgba(163,213,255,1) 11.3%, rgba(4,137,137,1) 86.7% );
+    background-image: linear-gradient( 109.6deg, rgba(4,137,137,1) 86.7% );
     grid-column: 2/4;
     height: 120px;
 }
 
 .grid-item:nth-child(6){
-    background-image: linear-gradient( 109.6deg,  rgba(143,57,213,1) 11.2%, rgba(96,227,109,1) 91.1% );
+    background-image: linear-gradient(  rgba(143,57,213,1) );
     grid-column: 2/4;
     height:305px;
 }
