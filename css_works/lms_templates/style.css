@@ -8,6 +8,8 @@
 .body{
     width: 100vw;
     height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f9;
 
 }
 
@@ -19,7 +21,7 @@
 
 .container{
     width:75%;
-    padding: 30px;
+    padding: 20px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -27,7 +29,7 @@
 }
 
 .nav-item-right{
-    width:40%;
+    width:50%;
     background-color: white;
     display: flex;
     align-items: center;
@@ -45,6 +47,9 @@
 }
 .nav-bar-brand{
     font-size: bold ;
+}
+.navbar-brand{
+    padding:100px;
 }
 .navbar-brand>span{
     color: blueviolet;
@@ -87,3 +92,102 @@
     font-size: 19px;
     color: #64748b;
 }
+
+
+.course-card {
+            border: 1px solid #dce3ed;
+            border-radius: 15px;
+            overflow: hidden;
+            background: white;
+            height: 100%;
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+        }
+
+.course-header {
+            height: 188px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 65px;
+        }
+
+.html-bg {
+            background: linear-gradient(120deg, #ffe080, #f9a30c);
+        }
+
+.python-bg {
+            background: linear-gradient(120deg, #b6d5ff, #4285f4);
+        }
+
+.react-bg {
+            background: linear-gradient(120deg, #a5f2c1, #22c55e);
+        }
+
+.course-body {
+            padding: 22px;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+        }
+
+.level {
+            background: #e0e7ff;
+            color: #2424a0;
+            border-radius: 30px;
+            padding: 6px 14px;
+            font-size: 14px;
+            align-self: flex-start;
+        }
+
+.intermediate {
+            background: #fff2c7;
+            color: #92400e;
+        }
+
+.course-title {
+            font-size: 22px;
+            font-weight: bold;
+            margin-top: 14px;
+            margin-bottom: 8px;
+        }
+
+.course-description {
+            color: #64748b;
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 16px;
+        }
+
+.course-footer {
+            margin-top: auto;
+        }
+
+.duration {
+            color: #64748b;
+            font-size: 15px;
+        }
+
+.price {
+            font-size: 20px;
+            font-weight: bold;
+            line-height: 1.2;
+        }
+
+.course-btn {
+            background-color: #5042e8;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            padding: 12px 16px;
+            font-weight: bold;
+            width: 100%;
+            display: block;
+        }
+
+.course-btn:hover {
+            background-color: #3829c7;
+            color: white;
+        }
+    
